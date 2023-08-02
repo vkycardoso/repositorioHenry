@@ -1,0 +1,22 @@
+ A diferencia de las matrices que tienen elementos valorados en índices, los objetos usan un concepto llamado pares de clave:valor. 
+
+La clave (key) es el identificador y el valor (value) es el valor que queremos guardar en esa clave. La sintaxis es "clave: valor". Los objetos pueden contener muchos pares de clave-valor, deben estar separados por una coma (importante: sin punto y coma dentro de un objeto). 
+
+Las claves son únicas en un objeto, solo puede haber una clave de ese nombre, aunque, varias claves pueden tener el mismo valor. Los valores pueden ser cualquier tipo de dato de Javascript; cadena, número, booleano, matriz, función o incluso otro objeto. 
+
+1. Para acceder a la propiedad de un objeto simplemente tenemos que escribir el nombre del objeto seguido de un punto y el nombre de la propiedad.
+2. Para cambiar el valor de una propiedad simplemente tenemos que acceder a ella e igualarla al nuevo valor.
+3. Para eliminar propiedades utilizaremos una palabra reservada llamada delete.  
+
+Métodos de objetos
+
+1.  El método hasOwnProperty() nos permitirá especificar un nombre, y verificar si este existe como una propiedad dentro de un objeto. En cada caso devolverá true o false.
+
+2. El método Object.keys() devuelve todas las propiedades de un objeto guardadas en orden dentro de un arreglo.
+
+Otros métodos de objetos: Has aprendido algunos de los métodos más utilizados de los objetos. Te invitamos a que revises la sección de "métodos" sobre objetos para conocer muchos otros que te puede ser de utilidad!
+Recorridos en objetos: De la misma manera que podíamos recorrer los elementos de un arreglo, podemos recorrer las propiedades de un objeto junto con sus valores.
+
+El bucle For-In nos permite iterar sobre un objeto utilizando dos variables pivot. Una representa el objeto que recorremos, y la otra la propiedad en la que se está realizando la iteración. Utilizando ambos valores podremos acceder al valor de cada propiedad del objeto.
+
+Contextos en JavaScript: Dentro de este lenguaje de programación existe un objeto global llamado this. Este nos permite manipular el contexto en el que las funciones y la información está siendo ejecutada. De esta forma podremos tener un alcance más preciso dentro de nuestro código.
